@@ -43,8 +43,7 @@ class MobileOrder extends Component {
     closeOrder(){
         this.props.mobile.closeOrder()
     }
-    render() { 
-        console.log(this.state.close)
+    render() {         
         return (
             <div id='mobileOrder' className={ this.state.close ? 'hidden' : null}>
                 <div className="title">

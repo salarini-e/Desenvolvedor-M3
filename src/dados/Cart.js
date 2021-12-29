@@ -21,8 +21,7 @@ class Cart{
         return this.unidades
     }
     add(){
-        this.unidades=this.unidades+1;
-        console.log(this.unidades)
+        this.unidades=this.unidades+1;        
         this.notificar();
     }
 }

@@ -3,8 +3,7 @@ import './Footer.css'
 
 class Footer extends Component {    
 
-    render() {       
-        console.log(this.props.number)  
+    render() {               
         return (            
             <div className={ this.props.number===9 ? 'footer' : 'footer move'}>
                 <span>

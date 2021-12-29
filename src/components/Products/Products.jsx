@@ -27,8 +27,7 @@ class Products extends Component {
     }   
     async componentDidMount(){  
         const response =  await api.get('')
-        this.produtos = response.data .products
-        console.log(response.data.products)
+        this.produtos = response.data .products        
         this.setState({
             produtos: this.produtos,   
             number: this.number                

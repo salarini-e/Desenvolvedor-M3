@@ -18,8 +18,7 @@ class Filtro{
         } );
     }   
     setColor(color){
-        this.color=color.charAt(0).toUpperCase() + color.slice(1);
-        console.log(this.color)
+        this.color=color.charAt(0).toUpperCase() + color.slice(1);        
         this.notificar();
     }
     setSize(valor){
@@ -60,8 +59,7 @@ class Filtro{
             default:
                 this.size='' 
                 break;       
-        }
-        console.log(this.size)
+        }        
         this.notificar();
     }
 

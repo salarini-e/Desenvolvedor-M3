@@ -17,8 +17,7 @@ class DadosMobileFilter{
             func(this.close);
         }); 
     }
-    openFilter(){
-        console.log('click')
+    openFilter(){        
         this.close=false
         this.notificar()
     }
